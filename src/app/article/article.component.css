@@ -33,6 +33,14 @@ h3.votes {
   gap: 30px;
 }
 
+.articleRight p {
+  margin: 0;
+}
+
+.articleRight p:last-of-type {
+  color: #858585;
+}
+
 .articleVoting {
   display: flex;
   gap: 20px;
@@ -42,11 +50,16 @@ h3.votes {
   border: 0px;
   border-radius: 8px;
   font-weight: 600;
-  color: rgb(21, 24, 190);
+
   text-transform: uppercase;
   font-size: 17px;
   margin: 0;
   padding: 0;
+}
+
+.font {
+  font-family: Monaco;
+  color: rgb(21, 24, 190);
 }
 
 .articleInfo p:first-of-type {
@@ -56,4 +69,8 @@ h3.votes {
 
 .link {
   color: #000;
+}
+
+.arrowUp {
+  transform: rotate(90deg) !important;
 }

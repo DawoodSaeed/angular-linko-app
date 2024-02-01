@@ -22,9 +22,12 @@ export class AppComponent {
 
   constructor() {
     this.articles = [
-      
+
     ]
   }
+
+
+  // To add a new article 
   addArticle(title: HTMLInputElement, link: HTMLInputElement): boolean {
     console.log(`Adding article title : ${title.value} & article link: ${link.value}`);
 
@@ -33,5 +36,11 @@ export class AppComponent {
       new Article(title.value, link.value)
     )
     return false;
+  }
+
+
+  // To sort  articles;
+  sortedArticles(): Article[] {
+    return this.articles.sort((a, b) => b.votes - a.votes);
   }
 }

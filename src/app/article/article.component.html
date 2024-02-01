@@ -5,12 +5,17 @@
 <div class="articleRight">
   <div class="articleInfo">
     <p>
-      <a href="{{ article.link }}" target="_blank" class="link">{{ article.title }}</a>
+      <a href="{{ article.link }}" target="_blank" class="link">{{
+        article.title
+      }}</a>
+    </p>
+    <p>
+      {{ article.domain() }}
     </p>
   </div>
 
   <div class="articleVoting">
-    <button class="voteBtn" (click)="voteUp()">upvote</button>
-    <button class="voteBtn" (click)="voteDown()">downvote</button>
+    <button class="voteBtn font" (click)="voteUp()">upvote</button>
+    <button class="voteBtn font" (click)="voteDown()">downvote</button>
   </div>
 </div>

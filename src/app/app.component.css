@@ -59,3 +59,8 @@ label {
   padding: 20px 0px;
   border-bottom: 1px solid #e4dede;
 }
+
+.font {
+  font-family: Monaco;
+  color: rgb(21, 24, 190);
+}
