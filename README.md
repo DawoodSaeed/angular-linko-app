@@ -6,4 +6,10 @@ The can sort link according to the vote each open of them got
 The can user can click the link and open the articles the found interesting
 
 
-The App is in development ...
+##The App is in development
+
+To DO:
+- Warning messages
+- Success messages
+- Sorting Feature
+- And the backend of the app in golang 
