@@ -1,0 +1,16 @@
+<div class="articleLeft">
+  <h3 class="votes">{{ article.votes }}</h3>
+  <p><b>Points</b></p>
+</div>
+<div class="articleRight">
+  <div class="articleInfo">
+    <p>
+      <a href="{{ article.link }}" target="_blank" class="link">{{ article.title }}</a>
+    </p>
+  </div>
+
+  <div class="articleVoting">
+    <button class="voteBtn" (click)="voteUp()">upvote</button>
+    <button class="voteBtn" (click)="voteDown()">downvote</button>
+  </div>
+</div>
