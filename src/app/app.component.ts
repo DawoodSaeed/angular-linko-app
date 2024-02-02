@@ -35,6 +35,8 @@ export class AppComponent {
     this.articles.push(
       new Article(title.value, link.value)
     )
+    title.value = "";
+    link.value = "";
     return false;
   }
 
