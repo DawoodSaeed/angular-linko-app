@@ -11,7 +11,6 @@ The can user can click the link and open the articles the found interesting
 To DO:
 - Warning messages
 - Success messages
-- Sorting Feature
 - And the backend of the app in golang 
 
 
