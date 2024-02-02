@@ -13,3 +13,6 @@ To DO:
 - Success messages
 - Sorting Feature
 - And the backend of the app in golang 
+
+
+The app is deployed at: https://angular-linko-app.vercel.app/
